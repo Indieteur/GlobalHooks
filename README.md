@@ -1,5 +1,5 @@
 # Global Hooks
-Allows you to listen for Global Keyboard and Mouse events so even if your application is inactive, it'll still capture Mouse and Keyboard input. This can be used to make global keyboard shortcuts for example/
+Allows you to listen for Global Keyboard and Mouse events so even if your application is inactive, it'll still capture Mouse and Keyboard input. This can be used to make global keyboard shortcuts for example.
 
 # Compatibility
 This library was made using Visual Studio 2017 so you need to have that to be able to use this. Also, the library might not be compatible with lower versions of VS.
