@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Indieteur.GlobalHooks</id>
+    <version>1.0.0</version>
+    <title>Indieteur.GlobalHooks</title>
+    <authors>Indieteur</authors>
+    <licenseUrl>https://raw.githubusercontent.com/Indieteur/GlobalHooks/master/license.md</licenseUrl>
+    <projectUrl>https://github.com/Indieteur/GlobalHooks</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows you to listen for Global Keyboard and Mouse events so even if your application is inactive, it'll still capture Mouse and Keyboard input. This can be used to make global keyboard shortcuts for example.</description>
+    <copyright>Copyright Indieteur 2018</copyright>
+    <tags>Keyboard, Mouse, Global, Shortcut, keys, buttons</tags>
+  </metadata>
+  <files>
+	<file src="source\Indieteur.GlobalHooks.dll" target="lib\Indieteur.GlobalHooks.dll" />
+	<file src="readme.txt" target="" />
+  </files>
+</package>
