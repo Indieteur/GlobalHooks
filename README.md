@@ -2,7 +2,7 @@
 Allows you to **listen for Global Keyboard and Mouse events** so even if your **application is inactive**, it'll still **capture Mouse and Keyboard input**. This can be used to make global keyboard shortcuts for example.
 
 # Compatibility
-The solution itself was created using **Visual Studio 2017** so you'll probably only be able to open it through that however, if you are using the **prebuilt library (.dll)** or the **Nuget package**. It's target framework is **.Net Framework 4.6.1**.
+The solution itself was created using **Visual Studio 2017** so you'll probably only be able to open it through that however, if you are using the **prebuilt library (.dll)** or the [**Nuget package**](https://www.nuget.org/packages/Indieteur.GlobalHooks/). It's target framework is **.Net Framework 4.6.1**.
 
 # How to Use
 There is a **Demo project included** which shows you how to use the library. The events, enumerations, types, properties and whatnot also have **summarized descriptions** so you can use the **object browser** to learn more about them. 
