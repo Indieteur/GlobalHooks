@@ -87,7 +87,6 @@ namespace Indieteur
             //This is the method that is subscribed to our KeyboardPressed event found in the internal GlobalKeyboardHook class.
             private void _OnKeyPressed(object sender, GlobalKeyboardHookEventArgs e)
             {
-                Console.WriteLine("A");
                 if (e.KeyboardState == InternalGlobalKeyHook.KeyboardState.KeyDown || e.KeyboardState == InternalGlobalKeyHook.KeyboardState.SysKeyDown) //When the user presses down a key.
                 {
                     if (currentKeysPressed.Contains(e.KeyboardData.VirtualCode)) //We check if the key is already being pressed by the user. If it is, we call the OnKeyPressed event instead of OnKeyDown.
