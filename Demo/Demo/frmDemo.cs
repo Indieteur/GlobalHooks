@@ -102,7 +102,7 @@ namespace Demo
             {
                 //If checkNoKeyPress is checked, we are not going to make a log for the key press event.
                 if (!checkNoLogKeyPress.Checked)
-                    listLog.Items.Add(Misc.MakeKeyLog(e, Misc.KeyEventType.OnKeyUp));
+                    listLog.Items.Add(Misc.MakeKeyLog(e, Misc.KeyEventType.OnKeyPress));
             }
 
             //If checkDisableAltF4 checkbox is checked and we are pressing alt + F4, let our system know that we are handling the input thus disabling it.
@@ -126,7 +126,7 @@ namespace Demo
             if (!(checkNotLogModifier.Checked && e.IsModifierKey))
             {
                 if (!checkNoLogKeyDown.Checked)
-                    listLog.Items.Add(Misc.MakeKeyLog(e, Misc.KeyEventType.OnKeyUp));
+                    listLog.Items.Add(Misc.MakeKeyLog(e, Misc.KeyEventType.OnKeyDown));
             }
 
             //If checkDisableAltF4 checkbox is checked and we are pressing alt + F4, let our system know that we are handling the input which in effect disabling it.
